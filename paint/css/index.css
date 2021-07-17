@@ -1,0 +1,67 @@
+html{
+    background: url(../img/paint_background.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100%;
+}
+.background_black{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .7;
+}
+
+.paintbox{
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+#canvas{
+    max-width: 1000px;
+    width: 100%;
+    height: 80%;
+    border-radius: 30px;
+    background-color: #fff;
+    border:3px solid gold
+}
+
+#myform{
+    max-width: 1000px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#canvas_controls{
+    width: 100%;
+    max-width: 1000px;
+    height: 5.2vw;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+#canvas_controls .canvas_color{
+    width: 7%;
+    border-radius: 30px;
+    cursor: pointer;
+    border:3px solid gold
+}
+#canvas_controls .canvas_color:nth-child(1){background-color:brown;}
+#canvas_controls .canvas_color:nth-child(2){background-color:green;}
+#canvas_controls .canvas_color:nth-child(3){background-color:red;}
+#canvas_controls .canvas_color:nth-child(4){background-color:blue;}
+#canvas_controls .canvas_color:nth-child(5){background-color:gray;}
+#canvas_controls .canvas_color:nth-child(6){background-color:black;}
+#canvas_controls .canvas_color:nth-child(7){background-color:white;}
+#canvas_controls .canvas_color:nth-child(8){background-color:purple;}
+#canvas_controls .canvas_color:nth-child(9){background-color:orange;}
+#canvas_controls .canvas_color:nth-child(10){background-color:yellow;}
