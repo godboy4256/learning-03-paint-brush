@@ -3,6 +3,17 @@ html{
     width: 100%;
     height: 100%;
 }
+
+#fill{cursor: pointer;}
+#save{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
 .background_black{
     width: 100%;
     height: 100%;
