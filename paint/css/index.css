@@ -53,13 +53,3 @@ html{
     cursor: pointer;
     border:3px solid gold
 }
-#canvas_controls .canvas_color:nth-child(1){background-color:brown;}
-#canvas_controls .canvas_color:nth-child(2){background-color:green;}
-#canvas_controls .canvas_color:nth-child(3){background-color:red;}
-#canvas_controls .canvas_color:nth-child(4){background-color:blue;}
-#canvas_controls .canvas_color:nth-child(5){background-color:gray;}
-#canvas_controls .canvas_color:nth-child(6){background-color:black;}
-#canvas_controls .canvas_color:nth-child(7){background-color:white;}
-#canvas_controls .canvas_color:nth-child(8){background-color:purple;}
-#canvas_controls .canvas_color:nth-child(9){background-color:orange;}
-#canvas_controls .canvas_color:nth-child(10){background-color:yellow;}
